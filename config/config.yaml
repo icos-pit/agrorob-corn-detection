@@ -1,0 +1,13 @@
+detector:
+  ros__parameters:
+    cam1:
+      topic: /cam1/pylon_ros2_camera_node/image_raw
+      info_topic: /cam1/pylon_ros2_camera_node/camera_info
+      frame: shin_FR
+    cam2:
+      topic: /cam2/pylon_ros2_camera_node/image_raw
+      info_topic: /cam2/pylon_ros2_camera_node/camera_info
+      frame: shin_FL
+    marker_frame: map
+    use_sim_time: false
+    model_path: /corn_ws/model/weights/best.pt

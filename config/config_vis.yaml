@@ -1,0 +1,6 @@
+detector:
+  ros__parameters:
+    cam1:
+      topic: /image_raw
+      info_topic: /camera_info
+    model_path: /corn_ws/model/weights/best.pt
